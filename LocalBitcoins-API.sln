@@ -1,0 +1,37 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.29306.81
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "LocalBitcoins-API", "LocalBitcoins-API.csproj", "{15B670B0-C10E-46A7-83C8-8B9A22C32098}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "HmacHttp", "..\HmacHttp\HmacHttp.csproj", "{3E907A27-CEAD-446C-8DBC-E5F3919B4F1D}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "MultiTool", "..\MultiTool\MultiTool.csproj", "{0111BD22-2C01-40EC-B202-474D50F41B1A}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{15B670B0-C10E-46A7-83C8-8B9A22C32098}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{15B670B0-C10E-46A7-83C8-8B9A22C32098}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{15B670B0-C10E-46A7-83C8-8B9A22C32098}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{15B670B0-C10E-46A7-83C8-8B9A22C32098}.Release|Any CPU.Build.0 = Release|Any CPU
+		{3E907A27-CEAD-446C-8DBC-E5F3919B4F1D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3E907A27-CEAD-446C-8DBC-E5F3919B4F1D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3E907A27-CEAD-446C-8DBC-E5F3919B4F1D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3E907A27-CEAD-446C-8DBC-E5F3919B4F1D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{0111BD22-2C01-40EC-B202-474D50F41B1A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0111BD22-2C01-40EC-B202-474D50F41B1A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0111BD22-2C01-40EC-B202-474D50F41B1A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0111BD22-2C01-40EC-B202-474D50F41B1A}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {632DAA3D-525F-46D2-A278-6A8E522F4F34}
+	EndGlobalSection
+EndGlobal
