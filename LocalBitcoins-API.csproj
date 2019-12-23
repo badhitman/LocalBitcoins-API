@@ -15,6 +15,7 @@
 
   <ItemGroup>
     <ProjectReference Include="..\HmacHttp\HmacHttp.csproj" />
+    <ProjectReference Include="..\Models\MetadataEntityModel\MetadataEntityModel.csproj" />
     <ProjectReference Include="..\MultiTool\MultiTool.csproj" />
   </ItemGroup>
 
