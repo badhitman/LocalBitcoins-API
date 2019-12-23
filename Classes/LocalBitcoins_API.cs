@@ -61,6 +61,10 @@ namespace LocalBitcoinsAPI
 
             Regex re = new Regex(@"^{\s*""\s*data\s*""\s*:\s*{\s*""\s*methods\s*""\s*:\s*{\s*(.+)\s*}\s*,\s*""\s*method_count\s*""\s*:\s*\d+\s*}\s*}$");
             MatchCollection m = re.Matches(json);
+
+            if (m.Count == 0 || m[0].Groups.Count < 2)
+                return null;
+
             json = m[0].Groups[1].Value.Trim();
             re = new Regex(@"(""\s*[^""]+\s*""\s*:\s*{\s*[^}]+\s*})", RegexOptions.Compiled);
             m = re.Matches(json);
